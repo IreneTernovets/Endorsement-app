@@ -5,23 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="index.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Support</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Place of Love</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <img src="/assets/freddie.png" alt="" />
-        <h2>We are the Champions</h2>
+        <img src="/assets/cat-img.webp" alt="" />
+        <h2 class="quote">Life is the flower for which love is the honey</h2>
       </header>
       <section class="input-elements">
-        <textarea name="" id="message-input" cols="30" rows="10"></textarea>
-        <button id="publish-btn">Publish</button>
+        <textarea
+          placeholder="Hello, my love..."
+          name=""
+          id="message-input"
+        ></textarea>
+        <button class="publish-btn" id="publish-btn">Send a letter 🌸</button>
       </section>
       <section class="support-messages">
-        <h4>- Endorsements -</h4>
-        <div id="endorsements">
-          <p>lkenflenfefme'fcmwekew,cewkmvewvmeklmmevlemvemvemvem;sdmve</p>
-        </div>
+        <h4>
+          <svg
+            class="letter-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 64 64"
+            id="love-mail"
+          >
+            <g data-name="mail, love, message, valentine, letter">
+              <path
+                fill="#f8f8f7"
+                d="M54,6V29.86L36.18,41.31,32,38l-.27.21-3.91,3.1L10,29.86V12h8V4H52A2,2,0,0,1,54,6Z"
+              ></path>
+              <polygon fill="#d1d8d5" points="18 4 10 12 18 12 18 4"></polygon>
+              <path
+                fill="#eb5159"
+                d="M27.82 41.31l-23 18.27A2 2 0 014 58V26zM60 26V58a2 2 0 01-.79 1.58l-23-18.27z"
+              ></path>
+              <path
+                fill="#fcc3d0"
+                d="M59.21,59.58A2,2,0,0,1,58,60H6a2,2,0,0,1-1.21-.42l23-18.27L32,38l4.18,3.31Z"
+              ></path>
+              <polygon
+                fill="#f31613"
+                points="10 21.29 10 29.86 4 26 10 21.29"
+              ></polygon>
+              <polygon
+                fill="#f31613"
+                points="60 26 54 29.86 54 21.29 60 26"
+              ></polygon>
+              <path
+                fill="#cb0a05"
+                d="M37.1 14.08L32 19l-5.1-4.92a2.91 2.91 0 010-4.21h0a3.18 3.18 0 014.37 0l.73.71.73-.71a3.18 3.18 0 014.37 0h0A2.91 2.91 0 0137.1 14.08zM48.4 19.56L45 23l-3.4-3.44a2.11 2.11 0 010-2.95h0a2 2 0 012.91 0l.49.49.49-.49a2 2 0 012.91 0h0A2.11 2.11 0 0148.4 19.56zM15.6 19.56L19 23l3.4-3.44a2.11 2.11 0 000-2.95h0a2 2 0 00-2.91 0L19 17.1l-.49-.49a2 2 0 00-2.91 0h0A2.11 2.11 0 0015.6 19.56z"
+              ></path>
+              <path
+                fill="#eb5159"
+                d="M39 34H25a1 1 0 010-2H39a1 1 0 010 2zM48 29H16a1 1 0 010-2H48a1 1 0 010 2z"
+              ></path>
+              <path
+                d="M61,26a.78.78,0,0,0,0-.16l0-.1-.06-.14-.05-.08a.58.58,0,0,0-.1-.12l-.07-.08,0,0L55,20.84V6a3,3,0,0,0-3-3H17.94l-.27.06-.09,0a1.32,1.32,0,0,0-.29.19l-8,8a1.32,1.32,0,0,0-.19.29l0,.09A1.31,1.31,0,0,0,9,12S9,12,9,12v8.8L3.38,25.25a.08.08,0,0,1,0,0l-.07.08a.58.58,0,0,0-.1.12l0,.08-.06.14,0,.1A.78.78,0,0,0,3,26S3,26,3,26V37a1,1,0,0,0,1,1H4a1,1,0,0,0,1-1V27.87l4.46,2.87L26.1,41.44l-21,16.65L5,58V41a1,1,0,0,0-1-1H4a1,1,0,0,0-1,1V58a3,3,0,0,0,1.18,2.37,0,0,0,0,0,0,0h0A2.91,2.91,0,0,0,6,61H58a2.91,2.91,0,0,0,1.8-.62h0a0,0,0,0,0,0,0A3,3,0,0,0,61,58V26S61,26,61,26ZM9,28.06,5.72,26,9,23.39Zm46-4.67L58.28,26,55,28.06ZM17,6.45V11H12.41Zm-6,22.9V13h7a1,1,0,0,0,1-1V5H52a1,1,0,0,1,1,1V29.35L36.24,40.12l-3.62-2.86a1,1,0,0,0-1.24,0l-3.62,2.86ZM7.13,59,32,39.32,56.87,59ZM59,58a.57.57,0,0,1,0,.13L37.9,41.44l16.64-10.7L59,27.87ZM37.79,9.19a4.18,4.18,0,0,0-5.75,0l0,0,0,0a4.18,4.18,0,0,0-5.75,0A3.92,3.92,0,0,0,25,12a3.88,3.88,0,0,0,1.21,2.82l5.1,4.92a1,1,0,0,0,1.38,0l5.1-4.92A3.88,3.88,0,0,0,39,12,3.92,3.92,0,0,0,37.79,9.19ZM36.4,13.4,32,17.65,27.6,13.4A1.89,1.89,0,0,1,27,12a1.91,1.91,0,0,1,.6-1.39A2.16,2.16,0,0,1,29.09,10a2.14,2.14,0,0,1,1.48.59l.74.71a1,1,0,0,0,1.38,0l.74-.71a2.16,2.16,0,0,1,3,0A1.91,1.91,0,0,1,37,12,1.89,1.89,0,0,1,36.4,13.4ZM49.11,16A3.11,3.11,0,0,0,45,15.74a3.07,3.07,0,0,0-4.11,4.56l3.4,3.44a1,1,0,0,0,1.42,0l3.4-3.44a3.1,3.1,0,0,0,0-4.35ZM47.69,18.9,45,21.62,42.31,18.9a1.11,1.11,0,0,1,0-1.55,1.06,1.06,0,0,1,.75-.31,1,1,0,0,1,.74.31l.49.5a1,1,0,0,0,1.42,0l.49-.5a1.08,1.08,0,0,1,1.49,0A1.11,1.11,0,0,1,47.69,18.9ZM23.11,16A3.11,3.11,0,0,0,19,15.74a3.07,3.07,0,0,0-4.11,4.56l3.4,3.44a1,1,0,0,0,1.42,0l3.4-3.44A3.12,3.12,0,0,0,23.11,16ZM21.69,18.9,19,21.62,16.31,18.9a1.12,1.12,0,0,1-.31-.78,1.06,1.06,0,0,1,1.8-.77l.49.5a1,1,0,0,0,1.42,0l.49-.5a1.08,1.08,0,0,1,1.49,0A1.11,1.11,0,0,1,21.69,18.9ZM40,33a1,1,0,0,1-1,1H25a1,1,0,0,1,0-2H39A1,1,0,0,1,40,33Zm9-5a1,1,0,0,1-1,1H16a1,1,0,0,1,0-2H48A1,1,0,0,1,49,28Z"
+              ></path>
+            </g></svg
+          >Previous Letters
+        </h4>
+        <div id="endorsements"></div>
       </section>
     </div>
     <script src="index.js" type="module"></script>

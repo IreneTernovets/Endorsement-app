@@ -1,12 +1,103 @@
+@font-face {
+  font-family: "Strawberry Whipped Cream";
+  src: url("fonts/Strawberry\ Whipped\ Cream_2.ttf");
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
-  background-color: #000;
-  color: #fff;
+  color: #dc143c;
+  background: #ffd1dc;
+  user-select: none;
+  font-family: "Playfair Display", serif;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 50%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 img {
-  width: 90px;
-  height: 90px;
+  width: 150px;
+  height: 150px;
+}
+
+.input-elements {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+h2.quote {
+  font-family: "Strawberry Whipped Cream", sans-serif;
+  font-size: 30px;
+}
+
+textarea {
+  font-family: inherit;
+  font-size: 18px;
+  width: 350px;
+  height: 150px;
+  padding: 5px 10px 10px 55px;
+  border: 2px solid transparent;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background-image: url(assets/paper.jpg);
+  background-repeat: repeat;
+  background-position: center center;
+  color: #333;
+  border-radius: 10% 10% 10% 10%/10% 10% 10% 10%;
+  resize: none;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: rgb(136, 106, 122);
+}
+
+textarea::placeholder {
+  color: #333;
+  font-size: 30px;
+}
+
+.letter-icon {
+  width: 40px;
+}
+
+.publish-btn {
+  font-family: "Strawberry Whipped Cream";
+  font-size: 25px;
+  background-color: #f497bc;
+  color: #333;
+  border: none;
+  border-radius: 3px;
+  width: 200px;
+  height: 40px;
+  text-shadow: 1px 1px 1px #333;
+  cursor: pointer;
+}
+
+h4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  background-color: #dc143c;
+  color: #ffd1dc;
+  padding: 15px;
+  max-width: 400px;
+  height: auto;
+  word-wrap: break-word;
 }
